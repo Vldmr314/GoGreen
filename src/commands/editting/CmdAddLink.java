@@ -9,8 +9,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.*;
 
+/**
+ * Represents the Add-Link Command.
+ */
 public class CmdAddLink extends Command implements Serializable {
 
+    /**
+     * Creates new CmdAddLink.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdAddLink(Role accessRole) {
         this.accessRole = accessRole;
     }

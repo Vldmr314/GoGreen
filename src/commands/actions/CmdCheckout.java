@@ -7,8 +7,16 @@ import server.DataBase;
 import server.OrderInformation;
 import server.Role;
 
+/**
+ * Represents the Checkout Command.
+ */
 public class CmdCheckout extends Command {
 
+    /**
+     * Creates new CmdCheckout.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdCheckout(Role accessRole) {
         this.accessRole = accessRole;
     }

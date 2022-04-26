@@ -11,8 +11,16 @@ import server.product.ProductSpecification;
 import java.io.Serializable;
 import java.util.Scanner;
 
+/**
+ * Represents the Add-Product Command.
+ */
 public class CmdAddProduct extends Command implements Serializable {
 
+    /**
+     * Creates new CmdAddProduct.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdAddProduct(Role accessRole) {
         this.accessRole = accessRole;
     }

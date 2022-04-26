@@ -16,6 +16,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Represents the Command Factory.
+ */
 public class CommandFactory {
     private static CommandFactory factory = null;
 
@@ -26,6 +29,12 @@ public class CommandFactory {
     public static List<Command> interfaceCommands = new ArrayList<>();
 
     public static Client client;
+
+    /**
+     * Creates new Command Factory.
+     *
+     * @param client the client in which the Command Factory is created
+     */
     private CommandFactory(Client client) {
 
         this.client = client;
@@ -63,6 +72,11 @@ public class CommandFactory {
         interfaceCommands.add(commands.get("quit"));
     }
 
+    /**
+     * Initializes the Command Factory.
+     *
+     * @param client the client in which the Command Factory is initialized
+     */
     public static void initialize(Client client) {
         if (factory == null)
             factory = new CommandFactory(client);
@@ -72,6 +86,12 @@ public class CommandFactory {
         return commands;
     }
 
+    /**
+     * Gets command from the String.
+     *
+     * @param stringCommand the given String
+     * @return the command found
+     */
     public static Command getCommandByStr(String stringCommand) {
         if (commands.containsKey(stringCommand))
             return commands.get(stringCommand);

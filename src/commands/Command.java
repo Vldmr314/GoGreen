@@ -4,6 +4,9 @@ import server.Role;
 
 import java.io.Serializable;
 
+/**
+ * Represents the Command.
+ */
 public abstract class Command implements Serializable {
     public Role accessRole  = null;
 

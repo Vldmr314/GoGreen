@@ -10,8 +10,16 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Represents the Go-To-Page Command.
+ */
 public class CmdGoToPage extends Command implements Serializable {
 
+    /**
+     * Creates new CmdGoToPage.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdGoToPage(Role accessRole) {
         this.accessRole = accessRole;
     }

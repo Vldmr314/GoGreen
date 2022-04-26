@@ -10,8 +10,16 @@ import server.User;
 import java.io.Serializable;
 import java.util.Scanner;
 
+/**
+ * Represents the Authorize Command.
+ */
 public class CmdAuthorize extends Command implements Serializable {
 
+    /**
+     * Creates new CmdAuthorize.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdAuthorize(Role accessRole) {
         this.accessRole = accessRole;
     }

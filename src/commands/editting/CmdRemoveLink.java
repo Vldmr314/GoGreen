@@ -8,8 +8,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.Scanner;
 
+/**
+ * Represents the Remove-Link Command.
+ */
 public class CmdRemoveLink extends Command implements Serializable {
 
+    /**
+     * Creates new CmdRemoveLink.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdRemoveLink(Role accessRole) {
         this.accessRole = accessRole;
     }

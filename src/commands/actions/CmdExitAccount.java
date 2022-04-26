@@ -8,8 +8,16 @@ import server.User;
 
 import java.io.Serializable;
 
+/**
+ * Represents the Exit Account Command.
+ */
 public class CmdExitAccount extends Command implements Serializable {
 
+    /**
+     * Creates new CmdExitAccount.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdExitAccount(Role accessRole) {
         this.accessRole = accessRole;
     }

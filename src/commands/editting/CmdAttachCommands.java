@@ -11,8 +11,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * Represents the Attach-Commands Command.
+ */
 public class CmdAttachCommands extends Command implements Serializable {
 
+    /**
+     * Creates new CmdAttachCommands.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdAttachCommands(Role accessRole) {
         this.accessRole = accessRole;
     }

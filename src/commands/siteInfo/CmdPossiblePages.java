@@ -8,8 +8,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Represents the Possible-Pages Command.
+ */
 public class CmdPossiblePages extends Command implements Serializable {
 
+    /**
+     * Creates new CmdPossiblePages.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdPossiblePages(Role accessRole) {
         this.accessRole = accessRole;
     }

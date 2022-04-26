@@ -6,8 +6,16 @@ import commands.CommandFactory;
 import pages.PageProduct;
 import server.Role;
 
+/**
+ * Represents the Put-In-Shopping-Card Command.
+ */
 public class CmdPutInShoppingCard extends Command {
 
+    /**
+     * Creates new CmdPutInShoppingCard.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdPutInShoppingCard(Role accessRole) {
         this.accessRole = accessRole;
     }

@@ -6,8 +6,16 @@ import server.Role;
 
 import java.io.Serializable;
 
+/**
+ * Represents the Quit Command.
+ */
 public class CmdQuit extends Command implements Serializable {
 
+    /**
+     * Creates new CmdQuit.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdQuit(Role accessRole) {
         this.accessRole = accessRole;
     }

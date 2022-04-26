@@ -7,8 +7,16 @@ import server.Role;
 
 import java.io.Serializable;
 
+/**
+ * Represents the Page-Info Command.
+ */
 public class CmdPageInfo extends Command implements Serializable {
 
+    /**
+     * Creates new CmdPageInfo.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdPageInfo(Role accessRole) {
         this.accessRole = accessRole;
     }

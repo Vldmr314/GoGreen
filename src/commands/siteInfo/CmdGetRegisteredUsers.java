@@ -8,8 +8,16 @@ import server.User;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Represents the Get-Registered-Users Command.
+ */
 public class CmdGetRegisteredUsers extends Command implements Serializable {
 
+    /**
+     * Creates new CmdGetRegisteredUsers.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdGetRegisteredUsers(Role accessRole) {
         this.accessRole = accessRole;
     }

@@ -6,8 +6,16 @@ import commands.CommandFactory;
 import server.Role;
 import server.product.ProductSpecificationFactory;
 
+/**
+ * Represents the Show-Shopping-Card Command.
+ */
 public class CmdShowShoppingCard extends Command {
 
+    /**
+     * Creates new CmdShowShoppingCard.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdShowShoppingCard(Role accessRole) {
         this.accessRole = accessRole;
     }

@@ -8,8 +8,16 @@ import server.User;
 import java.io.Serializable;
 import java.util.Scanner;
 
+/**
+ * Represents the Register Command.
+ */
 public class CmdRegister extends Command implements Serializable {
 
+    /**
+     * Creates new CmdRegister.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdRegister(Role accessRole) {
         this.accessRole = accessRole;
     }

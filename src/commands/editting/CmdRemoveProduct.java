@@ -8,8 +8,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.Scanner;
 
+/**
+ * Represents the Remove-Product Command.
+ */
 public class CmdRemoveProduct extends Command implements Serializable {
 
+    /**
+     * Creates new CmdRemoveProduct.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdRemoveProduct(Role accessRole) {
         this.accessRole = accessRole;
     }

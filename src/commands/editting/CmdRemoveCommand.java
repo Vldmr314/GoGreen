@@ -8,8 +8,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.Scanner;
 
+/**
+ * Represents the Remove Command.
+ */
 public class CmdRemoveCommand extends Command implements Serializable {
 
+    /**
+     * Creates new CmdRemoveCommand.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdRemoveCommand(Role accessRole) {
         this.accessRole = accessRole;
     }

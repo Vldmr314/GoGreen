@@ -7,8 +7,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.Map;
 
+/**
+ * Represents the Help Command.
+ */
 public class CmdHelp extends Command implements Serializable {
 
+    /**
+     * Creates new CmdHelp.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdHelp(Role accessRole) {
         this.accessRole = accessRole;
     }

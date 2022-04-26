@@ -9,8 +9,16 @@ import server.Role;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * Represents the Print-Attached-Links Command.
+ */
 public class CmdPrintAttachedLinks extends Command implements Serializable {
 
+    /**
+     * Creates new CmdPrintAttachedLinks.
+     *
+     * @param accessRole the role of the user
+     */
     public CmdPrintAttachedLinks(Role accessRole) {
         this.accessRole = accessRole;
     }

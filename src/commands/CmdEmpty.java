@@ -2,6 +2,9 @@ package commands;
 
 import java.io.Serializable;
 
+/**
+ * Represents Empty Command.
+ */
 public class CmdEmpty extends Command implements Serializable {
 
     /**
