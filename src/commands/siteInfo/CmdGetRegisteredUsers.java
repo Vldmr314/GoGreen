@@ -14,6 +14,9 @@ public class CmdGetRegisteredUsers extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("REGISTERED USERS LIST:");
@@ -31,6 +34,11 @@ public class CmdGetRegisteredUsers extends Command implements Serializable {
         System.out.println();
     }
 
+    /**
+     * Returns the description of the command.
+     *
+     * @return the description of the command
+     */
     @Override
     public String getDescription() {
         return "Print the list of all registered users";

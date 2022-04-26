@@ -13,6 +13,9 @@ public class CmdCheckout extends Command {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("THANK YOU FOR PURCHASE!\n");
@@ -21,9 +24,9 @@ public class CmdCheckout extends Command {
     }
 
     /**
-     * Returns the description of a command.
+     * Returns the description of the command.
      *
-     * @return the description of a command
+     * @return the description of the command
      */
     @Override
     public String getDescription() {

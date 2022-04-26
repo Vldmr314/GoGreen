@@ -14,15 +14,18 @@ public class CmdExitAccount extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         CommandFactory.client.setCurrentUser(User.getGuest());
     }
 
     /**
-     * Returns the description of a command.
+     * Returns the description of the command.
      *
-     * @return the description of a command
+     * @return the description of the command
      */
     @Override
     public String getDescription() {

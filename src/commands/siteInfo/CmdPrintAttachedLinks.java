@@ -15,6 +15,9 @@ public class CmdPrintAttachedLinks extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("ATTACHED LINKS:");
@@ -28,6 +31,11 @@ public class CmdPrintAttachedLinks extends Command implements Serializable {
         System.out.println();
     }
 
+    /**
+     * Returns the description of the command.
+     *
+     * @return the description of the command
+     */
     @Override
     public String getDescription() {
         return "Prints all links attached to the current page";

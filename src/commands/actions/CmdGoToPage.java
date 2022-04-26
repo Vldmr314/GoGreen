@@ -16,6 +16,9 @@ public class CmdGoToPage extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         if (CommandFactory.client.getCurrentPage().nextPages.size() == 0) {
@@ -44,9 +47,9 @@ public class CmdGoToPage extends Command implements Serializable {
     }
 
     /**
-     * Returns the description of a command.
+     * Returns the description of the command.
      *
-     * @return the description of a command
+     * @return the description of the command
      */
     @Override
     public String getDescription() {

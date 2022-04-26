@@ -16,6 +16,9 @@ public class CmdAuthorize extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("AUTHORIZATION:");
@@ -43,6 +46,11 @@ public class CmdAuthorize extends Command implements Serializable {
         System.out.println();
     }
 
+    /**
+     * Returns the description of the command.
+     *
+     * @return the description of the command
+     */
     @Override
     public String getDescription() {
         return "Authorize the user";

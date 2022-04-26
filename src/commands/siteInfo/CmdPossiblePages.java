@@ -14,6 +14,9 @@ public class CmdPossiblePages extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("AVAILABLE PAGES:");
@@ -27,6 +30,11 @@ public class CmdPossiblePages extends Command implements Serializable {
         System.out.println();
     }
 
+    /**
+     * Returns the description of the command.
+     *
+     * @return the description of the command
+     */
     @Override
     public String getDescription() {
         return "Prints all pages that can be used in site";

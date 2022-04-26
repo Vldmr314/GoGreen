@@ -12,6 +12,9 @@ public class CmdPutInShoppingCard extends Command {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         CommandFactory.client.getCurrentUser().shoppingCard.add(((PageProduct)CommandFactory.client.getCurrentPage()).specifications);
@@ -22,9 +25,9 @@ public class CmdPutInShoppingCard extends Command {
     }
 
     /**
-     * Returns the description of a command.
+     * Returns the description of the command.
      *
-     * @return the description of a command
+     * @return the description of the command
      */
     @Override
     public String getDescription() {

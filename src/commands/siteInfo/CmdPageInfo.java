@@ -13,6 +13,9 @@ public class CmdPageInfo extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("PAGE INFO: ");
@@ -26,6 +29,11 @@ public class CmdPageInfo extends Command implements Serializable {
         System.out.println();
     }
 
+    /**
+     * Returns the description of the command.
+     *
+     * @return the description of the command
+     */
     @Override
     public String getDescription() {
         return "Prints information about current page";

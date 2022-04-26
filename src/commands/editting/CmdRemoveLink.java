@@ -14,6 +14,9 @@ public class CmdRemoveLink extends Command implements Serializable {
         this.accessRole = accessRole;
     }
 
+    /**
+     * Executes the command.
+     */
     @Override
     public void execute() {
         System.out.println("REMOVING LINKS:\n");
@@ -34,6 +37,11 @@ public class CmdRemoveLink extends Command implements Serializable {
         System.out.println();
     }
 
+    /**
+     * Returns the description of the command.
+     *
+     * @return the description of the command
+     */
     @Override
     public String getDescription() {
         return "Remove attached link from current page";

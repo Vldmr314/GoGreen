@@ -33,9 +33,9 @@ public class CmdChangePage extends Command implements Serializable {
     }
 
     /**
-     * Returns the description of a command.
+     * Returns the description of the command.
      *
-     * @return the description of a command
+     * @return the description of the command
      */
     @Override
     public String getDescription() {
