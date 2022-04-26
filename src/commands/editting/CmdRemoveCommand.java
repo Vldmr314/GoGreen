@@ -1,0 +1,45 @@
+package commands.editting;
+
+import client.Client;
+import commands.Command;
+import commands.CommandFactory;
+import server.Role;
+
+import java.io.Serializable;
+import java.util.Scanner;
+
+public class CmdRemoveCommand extends Command implements Serializable {
+
+    public CmdRemoveCommand(Role accessRole) {
+        this.accessRole = accessRole;
+    }
+
+    @Override
+    public void execute() {
+        System.out.println("REMOVING LINKS:\n");
+
+        System.out.println("ATTACHED COMMANDS:");
+
+        int commandNumber = 1;
+        for (Command command : CommandFactory.client.getCurrentPage().attachedCommands)
+            System.out.println((commandNumber++) + ". " + command.getDescription());
+
+        System.out.print("\nEnter index of command to delete: ");
+
+        Scanner scanner = new Scanner(System.in);
+
+        try {
+            int index = scanner.nextInt();
+            CommandFactory.client.getCurrentPage().attachedCommands.remove(index - 1);
+        } catch (Exception ex) {
+            System.out.println("Index is invalid");
+        }
+
+        System.out.println();
+    }
+
+    @Override
+    public String getDescription() {
+        return "Remove command from current page";
+    }
+}
