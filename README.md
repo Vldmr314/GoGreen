@@ -3,7 +3,7 @@ A console application where the customer can explore information about plant and
 
 
 ## Description
-The project implements a number of design patterns such as Factory method, Facade, Singleton, Commande, and Memento in the context of a plant shop. During the development process, we encountered
+The project implements a number of design patterns such as Factory method, Facade, Singleton, Commande, and Memento in the context of a plant shop.
 
 
 ## Manual Installation
