@@ -1,3 +1,4 @@
+![logo](https://github.com/Vldmr314/GoGreen/blob/master/IMAGE%202022-04-26%2017:28:55.jpg)
 # GoGreen
 A console application where the customer can explore information about plant and buy it. In addition, the seller can edit, add or delete the product.
 
