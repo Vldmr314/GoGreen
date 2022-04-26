@@ -23,10 +23,6 @@ The project implements a number of design patterns such as Factory method, Facad
 4. The administrator can remove products from the store or add new ones. In addition, the administrator has the ability to hide or show the required command. For example, the `Print a list of all registered users` command is hidden by default.
 
 
-## UML class diagram
-![UML class diagram](https://www.kindpng.com/picc/m/12-125085_ahegao-anime-girl-face-outline-yandere-ahegao-face.png)
-
-
 ## Contacts
 The project was developed by students of Innopolis University 
 from group B21-03 (team 17): [Evgeny Gerasimov](e.gerasimov@innopolis.university), [Vladimir Ryabenko](v.ryabenko@innopolis.university ), [Ivan Chebykin](i.chebykin@innopolis.university), [Ruslan Abdullin](ru.abdullin@innopolis.university), [Victor Danilin](v.danilin@innopolis.university).
