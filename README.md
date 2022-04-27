@@ -1,4 +1,4 @@
-<img src="https://github.com/Vldmr314/GoGreen/blob/master/logo.jpg" alt="logo" width="200"/>
+<img src="https://github.com/Vldmr314/GoGreen/blob/master/logo.jpg" alt="logo" width="400"/>
 # GoGreen
 A console application where the customer can explore information about plant and buy it. In addition, the seller can edit, add or delete the product.
 
