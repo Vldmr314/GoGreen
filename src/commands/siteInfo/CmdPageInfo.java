@@ -44,6 +44,6 @@ public class CmdPageInfo extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Prints information about current page";
+        return "Print information about current page";
     }
 }

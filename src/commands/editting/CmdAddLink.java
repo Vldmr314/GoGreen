@@ -61,6 +61,6 @@ public class CmdAddLink extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Adds links for pages to current page";
+        return "Add links for pages to current page";
     }
 }

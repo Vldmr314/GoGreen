@@ -46,6 +46,6 @@ public class CmdPrintAttachedLinks extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Prints all links attached to the current page";
+        return "Print all links attached to the current page";
     }
 }

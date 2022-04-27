@@ -45,6 +45,6 @@ public class CmdPossiblePages extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Prints all pages that can be used in site";
+        return "Print all pages that can be used in site";
     }
 }

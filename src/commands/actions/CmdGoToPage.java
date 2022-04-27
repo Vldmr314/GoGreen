@@ -61,6 +61,6 @@ public class CmdGoToPage extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Moves client to another page";
+        return "Move client to another page";
     }
 }

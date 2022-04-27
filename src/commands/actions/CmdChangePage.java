@@ -39,6 +39,6 @@ public class CmdChangePage extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Moves user to another page";
+        return "Move user to another page";
     }
 }

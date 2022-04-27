@@ -44,6 +44,6 @@ public class CmdHelp extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Prints all possible commands and their description";
+        return "Print all possible commands and their description";
     }
 }

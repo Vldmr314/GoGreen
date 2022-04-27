@@ -37,6 +37,6 @@ public class CmdExitAccount extends Command implements Serializable {
      */
     @Override
     public String getDescription() {
-        return "Exits from account in the current client";
+        return "Exit from account in the current client";
     }
 }
