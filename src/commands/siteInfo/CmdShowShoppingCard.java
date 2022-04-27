@@ -36,7 +36,7 @@ public class CmdShowShoppingCard extends Command {
 
         System.out.println();
 
-        System.out.println("Total price: " + totalPrice);
+        System.out.println("Total price: " + totalPrice + "$");
     }
 
     /**

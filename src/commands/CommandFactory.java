@@ -57,6 +57,7 @@ public class CommandFactory {
         commands.put("my_shopping_card",     new CmdShowShoppingCard(Role.CLIENT));
         commands.put("add_item_in_card",     new CmdPutInShoppingCard(Role.CLIENT));
         commands.put("checkout",             new CmdCheckout(Role.CLIENT));
+        commands.put("remove_product_from_list", new CmdRemoveFromShoppingList(Role.CLIENT, client));
 
         interfaceCommands.add(commands.get("print_attached_links"));
         interfaceCommands.add(commands.get("add_links"));
@@ -65,6 +66,7 @@ public class CommandFactory {
         interfaceCommands.add(commands.get("remove_command"));
 
         interfaceCommands.add(commands.get("my_shopping_card"));
+        interfaceCommands.add(commands.get("remove_product_from_list"));
         interfaceCommands.add(commands.get("checkout"));
 
         interfaceCommands.add(commands.get("authorize"));
