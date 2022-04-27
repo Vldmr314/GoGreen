@@ -7,8 +7,11 @@ A console application where the customer can explore information about plant and
 ## Description
 The project implements a number of design patterns such as Factory method, Facade, Singleton, Commande, and Memento in the context of a plant shop.
 
-
 ## Manual Installation
+1. Open GoGreen project in JetBrains IDEA
+2. Run GoGreen.java fron /src
+
+## GIT Installation
 1. Requirements:
 	* git
 	* java 11
