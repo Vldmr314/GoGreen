@@ -34,4 +34,4 @@ Victor Danilin &nbsp;&nbsp;&nbsp;&nbsp; v.danilin@innopolis.university
 
 ## Links
 [UML](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)  
-[Raport](https://github.com/Vldmr314/GoGreen/blob/master/Raport.docx)
+[Raport](https://github.com/Vldmr314/GoGreen/blob/master/Raport.txt)
