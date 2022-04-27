@@ -26,8 +26,8 @@ The project implements a number of design patterns such as Factory method, Facad
 ## Contacts
 The project was developed by students of Innopolis University 
 from group B21-03 (team 17): 
-Evgeny Gerasimov	e.gerasimov@innopolis.university
-Vladimir Ryabenko	v.ryabenko@innopolis.university
-Ivan Chebykin		i.chebykin@innopolis.university
-Ruslan Abdullin		ru.abdullin@innopolis.university
-Victor Danilin		v.danilin@innopolis.university
+* Evgeny Gerasimov	e.gerasimov@innopolis.university
+* Vladimir Ryabenko	v.ryabenko@innopolis.university
+* Ivan Chebykin		i.chebykin@innopolis.university
+* Ruslan Abdullin	ru.abdullin@innopolis.university
+* Victor Danilin	v.danilin@innopolis.university
