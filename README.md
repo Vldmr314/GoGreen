@@ -33,5 +33,5 @@ from group B21-03 (team 17):
 * Victor Danilin	v.danilin@innopolis.university
 
 ## Links
-[UML](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)
+[UML](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)\n
 [Raport](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)
