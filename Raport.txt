@@ -1,0 +1,16 @@
+GoGreen Raport
+
+Go Green is an online store for buying plants. Now the project is implemented in the form of a console application. Including 2 roles: administrator and client. 
+The administrator has the right to view information about customers, factories, orders and customer reviews. The customer can view the plants and their detailed 
+information and add them to their cart or save them in their wish list. The project implements a number of design patterns, such as Factory method, Facade, 
+Singleton, Command and Memento in the context of the factory floor. 
+
+The main Command pattern is used for navigation and interaction with the site.  But the Command pattern lies inside the Facade pattern to differentiate the roles 
+in the project.  A Singleton pattern was used for each page. This is necessary so as not to store multiple copies of one page of the site. Also, to simplify the 
+filling of the site pages, the Factory method was used, so as not to overload the interface with the same code. After all, we use the Memento pattern to work with 
+the database. 
+
+The work of the code begins with the GoGreen class executing the main method. The Page class inherits the classes of the site pages, as well as the server component. 
+The PageFactory class creates the content of the site pages, interacting with the information received from the database, which in turn is updated through the User class. 
+The roles are defined through the User class, and depending on the role, the commands specified through the Command class are defined. Command, in turn, inherits 
+all the fashionable commands that are available for execution on the site.
