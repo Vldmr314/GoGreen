@@ -26,11 +26,11 @@ The project implements a number of design patterns such as Factory method, Facad
 ## Contacts
 The project was developed by students of Innopolis University 
 from group B21-03 (team 17):  
-Evgeny Gerasimov&nbsp;&nbsp;&nbsp;e.gerasimov@innopolis.university  
+Evgeny Gerasimov&nbsp;&nbsp;&nbsp;&nbsp;e.gerasimov@innopolis.university  
 Vladimir Ryabenko&nbsp;&nbsp;&nbsp;v.ryabenko@innopolis.university  
-Ivan Chebykin&nbsp;&nbsp;&nbsp;i.chebykin@innopolis.university  
-Ruslan Abdullin&nbsp;&nbsp;&nbsp;ru.abdullin@innopolis.university  
-Victor Danilin&nbsp;&nbsp;&nbsp;v.danilin@innopolis.university  
+Ivan Chebykin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.chebykin@innopolis.university  
+Ruslan Abdullin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ru.abdullin@innopolis.university  
+Victor Danilin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v.danilin@innopolis.university  
 
 ## Links
 [UML](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)  
