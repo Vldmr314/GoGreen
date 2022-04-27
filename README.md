@@ -31,3 +31,7 @@ from group B21-03 (team 17):
 * Ivan Chebykin		i.chebykin@innopolis.university
 * Ruslan Abdullin	ru.abdullin@innopolis.university
 * Victor Danilin	v.danilin@innopolis.university
+
+## Links
+[UML](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)
+[Raport](https://github.com/Vldmr314/GoGreen/blob/master/GoGreen.drawio.png)
