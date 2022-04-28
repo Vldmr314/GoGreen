@@ -18,7 +18,7 @@ The project implements a number of design patterns such as Factory method, Facad
 	* java 11
 
 2. `git clone https://github.com/Vldmr314/GoGreen`
-3. ` java -jar out/artifacts/GoGreen_jar/GoGreen.jar`
+3. From poject directory run `java -jar out/artifacts/GoGreen_jar/GoGreen.jar`
 
 
 ## Usage
